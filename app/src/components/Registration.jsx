@@ -132,7 +132,7 @@ function Registration() {
         {formError.passwordRe && <p>{formError.passwordRe}</p>}
 
         {/* Submit button for the form */}
-        <input type="submit" value={"Register"} className="btn" />
+        <input type="submit" value={"Sign Up"} className="btn" />
         <ToastContainer
           position="top-right"
           autoClose={5000}
